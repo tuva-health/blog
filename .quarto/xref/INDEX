@@ -1,0 +1,17 @@
+{
+  "posts/post-with-code/index.qmd": {
+    "index.html": "23cd48ce"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "b3b98909"
+  },
+  "index.qmd": {
+    "index.html": "b25cc8db"
+  },
+  "about.qmd": {
+    "about.html": "0d050227"
+  },
+  "posts/building-a-claims-data-platform/index.qmd": {
+    "index.html": "8cc518b9"
+  }
+}
