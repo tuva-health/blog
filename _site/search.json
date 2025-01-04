@@ -7,27 +7,6 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Blog Posts",
-    "section": "",
-    "text": "Building a Claims Data Platform\n\n\n\n\n\n\nclaims\n\n\n\n\n\n\n\n\n\nApr 17, 2024\n\n\nAaron Neiderhiser\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/building-a-claims-data-platform/index.html",
     "href": "posts/building-a-claims-data-platform/index.html",
     "title": "Building a Claims Data Platform",
@@ -96,5 +75,12 @@
     "title": "Building a Claims Data Platform",
     "section": "Conclusion",
     "text": "Conclusion\nHopefully the discussion above was helpful and you learned something. Or if you have a better way to think about it I would love to talk to you. But there is one final piece of advice that is most important which I’ll leave you with.\nThe most common failure-mode I see is a ton of time and effort spent setting up technology and transforming data that doesn’t result in the generation of important insights. Often this is because the people setting up the technology and transforming the data are disconnected from the data analysts actually trying to answer the questions. To avoid this do the following:\n\nWrite down your most use cases and be specific. For example, we want to analyze these 10 quality measures (list them) and want to flag patients that are in the denominator but not the numerator (i.e. have a care gap).\nFrom each use case, work backwards to identify the data tables and columns that are needed to do the analysis. In the example above, is there a data table that calculates the quality measure performance by measure and another data table at the patient grain that includes the patients that meet denominator criteria but not numerator?\nWork backwards from the analysis-ready data tables to determine the raw claims data elements that are needed to do the analysis.\n\nIf you spend the time following this exercise and build your data platform accordingly, I pretty much guarantee you’ll avoid wasting time and resources building a claims data platform no one uses and everyone hates :-)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog Posts",
+    "section": "",
+    "text": "Building a Claims Data Platform\n\n\n\n\n\n\nclaims\n\n\n\n\n\n\n\n\n\nApr 17, 2024\n\n\nAaron Neiderhiser\n\n\n\n\n\n\nNo matching items"
   }
 ]
